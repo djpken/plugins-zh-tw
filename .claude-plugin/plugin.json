@@ -1,0 +1,11 @@
+{
+  "name": "skills",
+  "skills": [
+    "./skills/engineering/git-fork-remotes",
+    "./skills/engineering/neat-freak",
+    "./skills/engineering/writing-router-skill",
+    "./skills/productivity/translating-skill-docs",
+    "./skills/productivity/hv-analysis",
+    "./skills/productivity/storage-analyzer"
+  ]
+}

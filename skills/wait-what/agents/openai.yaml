@@ -1,0 +1,5 @@
+interface:
+  display_name: "等等，什麼？"
+  short_description: "用更簡單的說法，補上缺少的 context"
+policy:
+  allow_implicit_invocation: false
