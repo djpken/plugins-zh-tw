@@ -40,4 +40,4 @@ scripts/link-skills.sh
 ## 既有 plugin 與 prompt
 
 - `prompt/`：獨立 prompt 收藏，收錄從各 skill / plugin repo 匯出的 standalone prompt 文字檔。
-- `skills/base/`、`skills/code-review/`、`skills/implement/`、`skills/wait-what/`：原有的 root-level skills，保留原始文件與 `zh-TW` 翻譯。
+- `skills/base/`、`skills/code-review/`、`skills/code-review-ocr/`、`skills/implement/`、`skills/wait-what/`：root-level skills，唯一的 `SKILL.md` 以台灣正體中文為主，不另維護 `SKILL.zh-TW.md` sibling file。

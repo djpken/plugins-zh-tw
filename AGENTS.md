@@ -45,7 +45,7 @@ Issues 與 specs 使用 GitHub Issues，操作使用 `gh` CLI。詳見 `docs/age
 
 每個 bucket 都有 `skills/<bucket>/README.md`，列出該 bucket 的每個 skill，名稱連到對應的 `SKILL.md`。Promoted bucket 的 README 與根目錄 README 另外分成 User-invoked 與 Model-invoked；非 promoted bucket 使用平面清單。
 
-目前 repo 原有的 `skills/base/`、`skills/code-review/`、`skills/implement/` 與 `skills/wait-what/` 保留在 root-level，沿用各自的 README、frontmatter 與翻譯 sibling file。
+目前 repo root-level 的 `skills/base/`、`skills/code-review/`、`skills/code-review-ocr/`、`skills/implement/` 與 `skills/wait-what/` 以各自的 `SKILL.md` 作為唯一 canonical 文件，內容以台灣正體中文為主；不另維護 `SKILL.zh-TW.md` sibling file。
 
 ### Invocation mode
 

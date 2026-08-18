@@ -29,6 +29,15 @@ Symlinks every skill in `skills/` into `~/.claude/skills` and `~/.agents/skills`
 
 Skills split on one axis — who can invoke them. **User-invoked** skills are reachable only when you type them; their job is to orchestrate. **Model-invoked** skills can be invoked by you _or_ reached for automatically by the agent when the task fits. A user-invoked skill may invoke model-invoked skills, but never another user-invoked one.
 
+## Existing root-level review workflow
+
+The root-level `SKILL.md` files are the only canonical skill documents and are primarily written in Taiwan Traditional Chinese. This repo does not maintain `SKILL.zh-TW.md` siblings.
+
+- [`/base`](./skills/base/SKILL.md) — Pin the fixed baseline and task source shared by implementation and both review variants.
+- [`/code-review`](./skills/code-review/SKILL.md) — Run the stable Standards/Spec range review.
+- [`/code-review-ocr`](./skills/code-review-ocr/SKILL.md) — Run the synchronous OCR range review with its own finding counter.
+- [`/implement`](./skills/implement/SKILL.md) — Implement the `/base` task source and converge through `/code-review`.
+
 ## User-invoked skills
 
 - [`/git-fork-remotes`](./skills/engineering/git-fork-remotes/SKILL.md) — Configure fork/upstream remotes and branch tracking.
